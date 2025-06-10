@@ -44,12 +44,19 @@ The playbook includes the following five integrated components:
 ## Repository Structure
 fairness_audit_framework/
 ├── playbook/ # Core fairness audit components
+
 ├── case_study/ # Loan approval case study
+
 ├── validation_framework/ # Statistical validation approaches
+
 ├── templates/ # Reporting templates
+
 ├── assets/ # Charts, diagrams, supporting visuals
+
 ├── README.md # Project overview and usage
+
 ├── LICENSE # Open source license
+
 └── .gitignore # Git configuration
 
 ## Getting Started
