@@ -6,17 +6,17 @@ The **Fairness Audit Framework** is a modular, actionable framework designed to 
 
 Developed in response to increasing concerns about bias in AI models, this playbook helps organizations move beyond ad hoc assessments by standardizing fairness audits across domains, models, and teams.
 
-## Why It Matters
+## Why it matters
 
 AI systems influence critical decisions in finance, healthcare, hiring, and more. Without a consistent fairness audit process, organizations risk legal exposure, reputational harm, and systemic discrimination. This playbook aims to:
 
-- Standardize fairness evaluation across teams.
-- Translate theory into practice using rigorous yet practical tools.
-- Foster accountability and transparency in AI development.
+- Standardize fairness evaluation across teams
+- Translate theory into practice using rigorous yet practical tools
+- Foster accountability and transparency in AI development
 
-## Core Components
+## Core components
 
-The playbook includes the following five integrated components:
+The framework includes the following five integrated components:
 
 1. **Historical Context Assessment**  
    Understand historical inequities and their relevance to the system being audited.
@@ -41,41 +41,33 @@ The playbook includes the following five integrated components:
 - 👥 Intersectional fairness support at each step.
 - ✅ Case study application to an AI-powered loan approval system.
 
-## Repository Structure
+## Repository structure
 fairness_audit_framework/
-├── playbook/ # Core fairness audit components
 
-├── case_study/ # Loan approval case study
+├── framework/ # Core fairness audit components
 
-├── validation_framework/ # Statistical validation approaches
-
-├── templates/ # Reporting templates
-
-├── assets/ # Charts, diagrams, supporting visuals
+├── example/ # Loan approval case study
 
 ├── README.md # Project overview and usage
 
-├── LICENSE # Open source license
 
-└── .gitignore # Git configuration
 
-## Getting Started
+## Getting started
 
 1. Clone the repository.
-2. Follow the guidance in `playbook/integration_workflow.md` to apply each audit component.
-3. Use the templates in `/templates` to document your audit findings.
-4. Refer to the `case_study/` folder to see the audit process applied to a loan approval AI system.
+2. Follow the guidance in `framework/integration_workflow.md` to apply each audit component.
+3. Refer to the `example/` folder to see the audit process applied to a loan approval AI system.
 
-## Intended Users
+## Intended users
 
-- ML Engineers
-- Data Scientists
-- Fairness Researchers
-- AI Governance & Risk Teams
+- ML engineers
+- Data scientists
+- Fairness researchers
+- AI governance & risk teams
 
-## Future Improvements
+## Future improvements
 
-This version of the playbook is designed for teams with basic-to-intermediate fairness literacy. Future improvements may include:
+This version of the framework is designed for teams with basic-to-intermediate fairness literacy. Future improvements may include:
 
 - Automated metric calculation scripts
 - Pre-built dashboards
